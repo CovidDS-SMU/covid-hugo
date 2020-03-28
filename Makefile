@@ -40,6 +40,7 @@ server:
 	docker run --rm -it \
 	-v $(shell pwd):/src \
 	-p 1313:1313 \
+	--user "$(shell id -u):$(shell id -g)" \
 	$(DOCKER_IMAGE):$(DOCKER_TAG) server -$(args)
 
 .PHONY: shell
@@ -47,6 +48,7 @@ shell:
 	docker run --rm -it \
 	-v $(shell pwd):/src \
 	-v $(shell pwd)/public:/$(DESTDIR) \
+	--user "$(shell id -u):$(shell id -g)" \
 	-e HUGO_PANDOC="pandoc-default --strip-empty-paragraphs" \
 	$(DOCKER_IMAGE):$(DOCKER_TAG) \
 	shell
@@ -55,10 +57,10 @@ shell:
 build:
 	@echo "🍳 Generating site"
 	docker run --rm -it \
+	--user "$(shell id -u):$(shell id -g)" \
 	-v $(shell pwd):/src \
 	-e HUGO_PANDOC="pandoc-default --strip-empty-paragraphs" \
-	$(DOCKER_IMAGE):$(DOCKER_TAG) \
-	--gc --minify -d $(DESTDIR)
+	$(DOCKER_IMAGE):$(DOCKER_TAG) --gc --minify -d $(DESTDIR)
 	@echo "🧂 Optimizing images"
 
 .PHONY: test
