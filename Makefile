@@ -56,13 +56,10 @@ build:
 	@echo "🍳 Generating site"
 	docker run --rm -it \
 	-v $(shell pwd):/src \
-	-v $(shell pwd)/public:/$(DESTDIR) \
 	-e HUGO_PANDOC="pandoc-default --strip-empty-paragraphs" \
 	$(DOCKER_IMAGE):$(DOCKER_TAG) \
 	--gc --minify -d $(DESTDIR)
-
 	@echo "🧂 Optimizing images"
-	$(OPTIMIZE)
 
 .PHONY: test
 test:
