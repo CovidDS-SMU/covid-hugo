@@ -11,12 +11,12 @@ OPTIMIZE = find $(DESTDIR) -not -path "*/static/*" \( -name '*.png' -o -name '*.
 xargs -0 -P8 -n2 mogrify -strip -thumbnail '1000>'
 
 .PHONY: all
-all: clean build deploy
+all: get_repository clean build deploy
 
 .PHONY: get_repository
 get_repository:
 	@echo "🛎 Getting Pages repository"
-	git clone $(GHP_REPO)/ $(DESTDIR)
+	git submodule update --remote --merge public
 
 .PHONY: clean
 clean:
@@ -65,5 +65,6 @@ deploy:
 	&& git add . \
 	&& git status \
 	&& git commit -m "🤖 CD bot is helping" \
-	&& git push -f -q $(GHP_REPO) master
+	&& git push
+
 	@echo "🚀 Site is deployed!"
