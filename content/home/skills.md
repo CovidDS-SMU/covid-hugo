@@ -29,9 +29,22 @@ subtitle = ""
   icon_pack = "fas"
   name = "Machine Learning"
 
+
+
 [[feature]]
   icon = "laptop-medical"
   icon_pack = "fas"
   name = "Medical Updates"
+  description = """Convictions hope ultimate chaos sea good pinnacle battle suicide self burying transvaluation. Ocean merciful hope strong inexpedient faith superiority god revaluation sexuality ultimate strong justice. Against dead ocean decieve passion faithful joy gains."""
+
+[[feature]]
+  icon = "download"
+  icon_pack = "fas"
+  name = "Data Aquisiton"
+  
+[[feature]]
+  icon = "chart-line"
+  icon_pack = "fas"
+  name = "Statistics"
 
 +++

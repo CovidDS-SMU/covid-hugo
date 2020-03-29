@@ -11,29 +11,18 @@ OPTIMIZE = find $(DESTDIR) -not -path "*/static/*" \( -name '*.png' -o -name '*.
 xargs -0 -P8 -n2 mogrify -strip -thumbnail '1000>'
 
 .PHONY: all
-all: get_repository clean build test deploy
+all: clean build deploy
 
 .PHONY: get_repository
 get_repository:
 	@echo "🛎 Getting Pages repository"
-	git clone $(GHP_REPO) $(DESTDIR)
+	git clone $(GHP_REPO)/ $(DESTDIR)
 
 .PHONY: clean
 clean:
 	@echo "🧹 Cleaning old build"
 	cd $(DESTDIR) && rm -rf *
 
-# .PHONY: get
-# get:
-# 	@echo "❓ Checking for hugo"
-# 	@if ! [ -x "$$(command -v hugo)" ]; then\
-# 		echo "🤵 Getting Hugo";\
-# 	    wget -q -P tmp/ https://github.com/gohugoio/hugo/releases/download/v$(HUGO_VERSION)/hugo_extended_$(HUGO_VERSION)_Linux-64bit.tar.gz;\
-# 		tar xf tmp/hugo_extended_$(HUGO_VERSION)_Linux-64bit.tar.gz -C tmp/;\
-# 		sudo mv -f tmp/hugo /usr/bin/;\
-# 		rm -rf tmp/;\
-# 		hugo version;\
-# 	fi
 
 .PHONY:server
 server:
@@ -47,7 +36,7 @@ server:
 shell:
 	docker run --rm -it \
 	-v $(shell pwd):/src \
-	-v $(shell pwd)/public:/$(DESTDIR) \
+	-v $(shell pwd)/$(DESTDIR):/target \
 	--user "$(shell id -u):$(shell id -g)" \
 	-e HUGO_PANDOC="pandoc-default --strip-empty-paragraphs" \
 	$(DOCKER_IMAGE):$(DOCKER_TAG) \
@@ -59,6 +48,7 @@ build:
 	docker run --rm -it \
 	--user "$(shell id -u):$(shell id -g)" \
 	-v $(shell pwd):/src \
+	-v $(shell pwd)/$(DESTDIR):/target \
 	-e HUGO_PANDOC="pandoc-default --strip-empty-paragraphs" \
 	$(DOCKER_IMAGE):$(DOCKER_TAG) --gc --minify -d $(DESTDIR)
 	@echo "🧂 Optimizing images"
