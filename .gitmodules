@@ -9,4 +9,4 @@
 	url = https://github.com/kimcc/hugo-theme-noteworthy.git
 [submodule "public"]
 	path = public
-	url = git@github.com:CovidDS-SMU/covidds-smu.github.io.git
+	url = https://github.com/CovidDS-SMU/covidds-smu.github.io.git
