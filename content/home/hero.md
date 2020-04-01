@@ -71,6 +71,6 @@ title = "Data Scientists Fighting Covid-19"
 
 <br>
 
-**Using data to offer insights and resources to health officials and the general public**
+**Data Science Volunteers using data to fight the Covid-19 pandemic by connecting people, organizations, and resources.**
 
 
