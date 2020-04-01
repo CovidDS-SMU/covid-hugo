@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role:
+role: Data Scientist and Nix Guru
 
 # Organizations/Affiliations
 organizations:
@@ -22,8 +22,8 @@ bio: David is a data scientist and open source contributor with an extensive bac
 
 # List each interest with a dash
 interests:
-- Interest 1
-- Interest 2
+- Nix
+- Data Science
 
 education:
   courses:
@@ -39,18 +39,15 @@ education:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-- icon: envelope
-  icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/USERNAME
-- icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.com/citations?user=PERSON-ID
+- icon: linkedin
+  icon_pack: fab
+  link: http://linkedin.com/in/data-science-david
 - icon: github
   icon_pack: fab
-  link: https://github.com/USERNAME
+  link: https://github.com/josephsdavid
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -66,3 +63,5 @@ user_groups:
 - Class of May 2020
 - Graduate Student
 ---
+
+David is a data scientist and open source contributor with an extensive background in mathematical and stochastic modeling. He loves unsupervised learning, caffeine, and type hinting, and hopes to continue to learn and work on a diverse range of problems throughout his career.

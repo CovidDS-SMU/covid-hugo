@@ -39,18 +39,15 @@ education:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-- icon: envelope
-  icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
-- icon: twitter
+- icon: linkedin
   icon_pack: fab
-  link: https://twitter.com/USERNAME
-- icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.com/citations?user=PERSON-ID
-- icon: github
-  icon_pack: fab
-  link: https://github.com/USERNAME
+  link: http://linkedin.com/in/morgan-brown-5b8474197
+# - icon: google-scholar
+#   icon_pack: ai
+#   link: https://scholar.google.com/citations?user=PERSON-ID
+# - icon: github
+#   icon_pack: fab
+#   link: https://github.com/USERNAME
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -66,3 +63,5 @@ user_groups:
 - Other Volunteer Experts
 - Group 2
 ---
+
+My name is Morgan Brown, and I am from Wetumpka, Alabama. I am currently a junior, and I intend to graduate in May 2021 with a bachelor’s degree in Global Business-Legal Studies. I am thrilled to assist specifically in the research and writing involved with this project.

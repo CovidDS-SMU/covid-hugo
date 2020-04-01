@@ -39,18 +39,15 @@ education:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-- icon: envelope
-  icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/USERNAME
-- icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.com/citations?user=PERSON-ID
-- icon: github
-  icon_pack: fab
-  link: https://github.com/USERNAME
+# - icon: twitter
+#   icon_pack: fab
+#   link: https://twitter.com/USERNAME
+# - icon: google-scholar
+#   icon_pack: ai
+#   link: https://scholar.google.com/citations?user=PERSON-ID
+# - icon: github
+#   icon_pack: fab
+#   link: https://github.com/USERNAME
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -66,3 +63,5 @@ user_groups:
 - Other Volunteer Experts
 - Group 2
 ---
+
+Jodi is a PR consultant with Blue Water Communications. She has more than 15 years experience as a senior leader of marketing, PR, web, and brand teams at arts, creative and non-profit organizations. Favorite projects include producing an NPR Tiny Desk concert, speaking at the first TEDx Bentonville, and telling the stories of overlooked female artists.

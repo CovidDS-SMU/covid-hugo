@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role:
+role: Adjunct Professor
 
 # Organizations/Affiliations
 organizations:
@@ -62,3 +62,5 @@ email: ""
 user_groups:
 - Advisor
 ---
+
+Professor of Machine learning, John has 10 years working in industry solving and leading teams that solve real world problems for clients. One foot firmly in academia and the other in industry, John strives to bring new cutting edge solutions into the field where they can make immediate effect.

@@ -59,3 +59,5 @@ email: ""
 user_groups:
 - Alumni
 ---
+
+Lecturer of Information Systems and Quantitative Methods at Troy University. Machine Learning Engineer with extensive experience in Cloud Computing, Big Data, Machine Learning and Deep Learning projects.

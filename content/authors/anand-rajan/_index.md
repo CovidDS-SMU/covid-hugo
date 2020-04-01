@@ -39,18 +39,12 @@ education:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-- icon: envelope
-  icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
-- icon: twitter
+- icon: linkedin
   icon_pack: fab
-  link: https://twitter.com/USERNAME
-- icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.com/citations?user=PERSON-ID
-- icon: github
-  icon_pack: fab
-  link: https://github.com/USERNAME
+  link: https://www.linkedin.com/in/anand-r-60b457
+# - icon: github
+#   icon_pack: fab
+#   link: https://github.com/USERNAME
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -66,3 +60,5 @@ user_groups:
 - Class of May 2020
 - Graduate Student
 ---
+
+Anand Rajan is a Data Engineer in Health care organization and carries abundant experience in the area of Database Management and Business Analytics skills. He possesses excellent enterprise solution architecture skill with attention to details. He is passionate in Healthcare solutions with a keen interest in Machine Learning, Natural Language Processing, Image processing and visualization.
