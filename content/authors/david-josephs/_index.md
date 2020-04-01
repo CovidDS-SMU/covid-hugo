@@ -41,7 +41,7 @@ education:
 social:
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/USERNAME
+  link: https://twitter.com/Daved256
 - icon: linkedin
   icon_pack: fab
   link: http://linkedin.com/in/data-science-david

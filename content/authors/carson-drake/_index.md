@@ -44,13 +44,13 @@ education:
 social:
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
+  link: https://twitter.com/thecarsondrake
 - icon: linkedin
   icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
+  link: https://www.linkedin.com/in/carsondrake/
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://github.com/drake-smu
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
