@@ -15,6 +15,11 @@
   weight = 30
 
 [[main]]
+  name = "Team"
+  url = "#people"
+  weight = 30
+
+[[main]]
   name = "Wiki"
   url = "courses/example"
   weight = 50
