@@ -50,7 +50,7 @@ make server args="Dw"
 ### Step 4: Done
 
 Thats it. The site should be visible at
-[localhost:1313](). Any changes made while site server is running will trigger an autoreload so don't worry
+<http://localhost:1313>. Any changes made while site server is running will trigger an autoreload so don't worry
 about hammering that refresh button.
 
 ## Resources/Requirements
