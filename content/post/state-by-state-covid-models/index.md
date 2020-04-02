@@ -8,7 +8,6 @@ featured: false
 authors:
   - David Josephs
 tags:
-  - Visualization
   - Tools
 image:
   filename: screenshot-from-2020-04-01-17-06-31.png
