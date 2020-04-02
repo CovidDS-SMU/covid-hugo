@@ -9,6 +9,10 @@ authors:
   - David Josephs
 tags:
   - Tools
+categories:
+  - Tools
+projects:
+  - internal-project
 image:
   filename: screenshot-from-2020-04-01-17-06-31.png
   focal_point: Smart
