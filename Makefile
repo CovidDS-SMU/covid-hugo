@@ -11,12 +11,12 @@ OPTIMIZE = find $(DESTDIR) -not -path "*/static/*" \( -name '*.png' -o -name '*.
 xargs -0 -P8 -n2 mogrify -strip -thumbnail '1000>'
 
 .PHONY: all
-all: get_repository clean build deploy
+all: clean build
 
-.PHONY: get_repository
-get_repository:
-	@echo "🛎 Getting Pages repository"
-	git submodule update --remote --merge public
+# .PHONY: get_repository
+# get_repository:
+# 	@echo "🛎 Getting Pages repository"
+# 	git submodule update --remote --merge public
 
 .PHONY: clean
 clean:
@@ -26,6 +26,7 @@ clean:
 
 .PHONY:server
 server:
+	@echo "🤖 Serving Site"
 	docker run --rm -it \
 	-v $(shell pwd):/src \
 	-p 1313:1313 \
@@ -58,13 +59,13 @@ test:
 	@echo "🍜 Testing HTML"
 	docker run -v $(GITHUB_WORKSPACE)/$(DESTDIR)/:/mnt 18fgsa/html-proofer mnt --disable-external
 
-.PHONY: deploy
-deploy:
-	@echo "🎁 Preparing commit"
-	@cd $(DESTDIR) \
-	&& git add . \
-	&& git status \
-	&& git commit -m "🤖 CD bot is helping" \
-	&& git push
+# .PHONY: deploy
+# deploy:
+# 	@echo "🎁 Preparing commit"
+# 	@cd $(DESTDIR) \
+# 	&& git add . \
+# 	&& git status \
+# 	&& git commit -m "🤖 CD bot is helping" \
+# 	&& git push
 
-	@echo "🚀 Site is deployed!"
+# 	@echo "🚀 Site is deployed!"

@@ -7,6 +7,7 @@ weight = 10  # Order that this section will appear.
 
 title = "Data Scientists Fighting Covid-19"
 
+
 # Hero image (optional). Enter filename of an image in the `static/img/` folder.
 #hero_media = "hero-academic.png"
 
