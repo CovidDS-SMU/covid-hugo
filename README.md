@@ -57,8 +57,9 @@ about hammering that refresh button.
 
 ### Tools that helped develop this project
 
-- [https://deloreanipsum.com/]()
-- [http://nietzsche-ipsum.com/]()
-- [https://www.freecodecamp.org/news/a-portable-makefile-for-continuous-delivery-with-hugo-and-github-pages/]()
-- [https://www.netlify.com/]()
-- [https://gohugo.io/]()
+- <https://deloreanipsum.com/>
+- <http://nietzsche-ipsum.com/>
+- <https://www.freecodecamp.org/news/a-portable-makefile-for-continuous-delivery-with-hugo-and-github-pages/>
+- <https://www.netlify.com/>
+- <https://gohugo.io/>
+- [https://hub.docker.com/r/klakegg/hugo](https://hub.docker.com/r/klakegg/hugo)
