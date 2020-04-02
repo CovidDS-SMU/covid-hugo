@@ -13,7 +13,7 @@ tags:
 image:
   filename: screenshot-from-2020-04-01-17-06-31.png
   focal_point: Smart
-  preview_only: false
+  preview_only: true
   caption: New York Curves
 ---
 post info here
