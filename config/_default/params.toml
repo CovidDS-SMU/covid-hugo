@@ -44,7 +44,7 @@ local_business_type = ""
 org_name = ""
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
-description = ""
+description = "This is the group site for the volunteers behind distillersfightingcovid, covidmodeling.com, and other products. A group of nerds from SMU working remotely from all of our homes. Staying inside, trying to help make a difference."
 
 ############################
 ## Site Features
@@ -117,7 +117,7 @@ contact_links = [
 ############################
 
 # Default image for social sharing and search engines. Place image in `static/img/` folder and specify image name here.
-sharing_image = ""
+sharing_image = "distilleries-fighting-covid-map.png"
 
 # Twitter username (without @). Used when a visitor shares your site on Twitter.
 twitter = ""
