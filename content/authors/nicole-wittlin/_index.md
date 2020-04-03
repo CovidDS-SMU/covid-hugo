@@ -30,7 +30,7 @@ social:
   - icon: linkedin
     icon_pack: fab
     link: 'https://www.linkedin.com/in/newittlin/'
-role: null
+role: Class August 2020
 email: ''
 ---
 
