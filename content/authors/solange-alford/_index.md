@@ -1,6 +1,6 @@
 ---
 # Display name
-name: "Solange Alford"
+name: "Solange Garcia de Alford"
 
 # Username (this should match the folder name and the name on publications)
 authors:
