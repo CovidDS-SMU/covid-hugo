@@ -57,6 +57,25 @@ collections:
           - {label: "Where's the focal point in the image? Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.", name: focal_point, widget: string, required: false, default: "Smart"}
           - {label: Thumbnail Only?, name: preview_only, widget: boolean, required: false, default: false}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: "team"
+    label: "Team"
+    label_singular: Member
+    folder: 'content/authors'
+    path: '{{slug}}/_index'
+    fields:
+      - {label: "Name", name: "name", widget: "string"}
+      - {label: "Role", name: "role", widget: "string"}
+      - label: "Featured Image"
+        name: "image"
+        widget: object
+        fields:
+          - label: "Upload an image named `avatar.jpg/png`"
+            name: "filename"
+            widget: "image"
+            default: "avatar"
+            media_library:
+              config:
+                multiple: false
   - name: "pages"
     label: "Pages"
     files:
