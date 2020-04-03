@@ -14,7 +14,7 @@ categories:
 projects:
   - internal-project
 image:
-  filename: screenshot-from-2020-04-01-17-06-31.png
+  filename: featured.png
   focal_point: Smart
   preview_only: false
   caption: New York Curves
