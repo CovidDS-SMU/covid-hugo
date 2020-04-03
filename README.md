@@ -57,6 +57,7 @@ about hammering that refresh button.
 
 ### Tools that helped develop this project
 
+- <https://sourcethemes.com/academic>
 - <https://deloreanipsum.com/>
 - <http://nietzsche-ipsum.com/>
 - <https://www.freecodecamp.org/news/a-portable-makefile-for-continuous-delivery-with-hugo-and-github-pages/>
