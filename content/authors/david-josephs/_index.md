@@ -22,17 +22,21 @@ bio: David is a data scientist and open source contributor with an extensive bac
 
 # List each interest with a dash
 interests:
-- Nix
-- Data Science
+- Unsupervised & Generative Deep Learning
+- Functional programming
+- Creative applications of ML
+- High Performance Computing
 
 education:
   courses:
-  - course: Title course 1
-    institution: Name of Institution
-    year: 2012
-  - course: Title course 1
-    institution: Name of Institution
-    year: 2012
+  - course: Southern Methodist University, MS in Data Science
+    institution: |- 
+      Thesis: Electromyographic Control Using a Simple Model of Attention
+    year: 2020
+  - course: University of Virginia, BS Aerospace Engineering, BA Astronomy
+    institution: |-
+      Thesis: A GPU-accelerated Solver for Transient Simulations of Soot Formation
+    year: 2018
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
