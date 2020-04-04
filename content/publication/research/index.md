@@ -1,5 +1,5 @@
 ---
-title: "What is the impact of free societies verses authoritarian regimes in flattening the curve of COVID-19"
+title: "What is the impact of free societies versus authoritarian regimes in flattening the curve of COVID-19"
 authors:
 - David Stroud
 - Noelle Brown
