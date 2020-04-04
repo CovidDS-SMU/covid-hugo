@@ -53,6 +53,8 @@ Thats it. The site should be visible at
 <http://localhost:1313>. Any changes made while site server is running will trigger an autoreload so don't worry
 about hammering that refresh button.
 
+### [More detailed steps coming soon...]
+
 ## Resources/Requirements
 
 ### Tools that helped develop this project
