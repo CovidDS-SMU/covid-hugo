@@ -33,7 +33,7 @@ tags:
 featured: true
 
 links:
-url_pdf: '/pdf/Stroud_Crowd_1_Authoritative_Regimes.pdf'
+url_pdf: 'Stroud_Crowd_1_Authoritative_Regimes.pdf'
 url_code: 'https://github.com/CovidDS-SMU/government_response_model'
 url_dataset: ''
 url_poster: ''
